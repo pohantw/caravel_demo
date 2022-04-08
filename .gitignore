@@ -1,5 +1,11 @@
 precheck_results
 *.hex*
 *.lst
-*.vcd
+*.vcd*
 *.gtkw
+*.vvp
+.simvision/
+*.bs
+.simvision/
+*.bs.out*
+
