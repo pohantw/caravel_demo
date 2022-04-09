@@ -8,8 +8,7 @@ Configuration and other management is read through the wishbone ports in `cgra.c
 `cgra_tb.v` is the top level verilog testbench file. This file is where we handle IO into and out of our CGRA.
 
 ## Running Tests
-To run tests, move up one directory into `caravel_user_project/verilog/dv` use the command:
+To run tests, move up to the top-most directory and run
 ```
-make verify-cgra
+make verify-cgra-rtl
 ```
-Don't forget to run `make clean` before every run.
