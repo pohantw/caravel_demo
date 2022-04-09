@@ -1,6 +1,0 @@
-[submodule "caravel"]
-	path = caravel
-	url = git@github.com:pohantw/caravel_demo.git
-[submodule "mgmt_core_wrapper"]
-	path = mgmt_core_wrapper
-	url = git@github.com:pohantw/caravel_demo.git
