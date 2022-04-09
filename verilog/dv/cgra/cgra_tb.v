@@ -44,8 +44,8 @@ module cgra_tb;
 	integer c;
 	initial begin
 		c = 0;
-		$dumpfile("cgra.vcd");
-		$dumpvars(0, cgra_tb);
+		//$dumpfile("cgra.vcd");
+		//$dumpvars(0, cgra_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
 		repeat (200) begin
@@ -110,9 +110,9 @@ module cgra_tb;
 		$display("[Monitor]: Configuration End");
 
 		// wait 1k cycles to make sure sel changes to IO clock/reset
-		$display("[Monitor]: Wait 1k cycles to make sure sel changes to IO clock/reset");
+		$display("[Monitor]: Wait 3k cycles to make sure sel changes to IO clock/reset");
 		@(posedge io_clock);
-		#(CLK_PERIOD*1000);
+		#(CLK_PERIOD*3000);
 
 		// Input feeding start
 		$display("[Monitor]: Start feeding inputs to CGRA");
