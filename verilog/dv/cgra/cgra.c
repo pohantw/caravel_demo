@@ -1317,6 +1317,7 @@ if (rtl != 2) fail=1;
     // free CGRA
     reg_mprj_stall = 0x0;
     // message FPGA to start feeding inputs
+    reg_mprj_message = 2;
     // if (fail) reg_mprj_message = 0; // reg test failed, finish simulation
     // else      reg_mprj_message = 2; // reg test success, message testbench to start feeding inputs
     // select clock & reset to come from IO
