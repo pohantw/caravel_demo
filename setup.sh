@@ -7,4 +7,5 @@ export PDK_ROOT=${caravel_workspace}/pdks
 
 # install the pdk, caravel...etc if you haven't
 make setup
+git submodule update --init --recursive
 
