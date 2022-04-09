@@ -77,7 +77,7 @@ module wishbone_ctl #
         end
     end
 
-    assign ack_o = ask_o_shift_reg[0]; // assume we can always process request immediately;
+    assign ack_o = ack_o_shift_reg[0]; // assume we can always process request immediately;
     // assign ack_o = ack_o_shift_reg[3]; // delay N cycles for the ack, see how the wishbone behaves
 
 // ==============================================================================
