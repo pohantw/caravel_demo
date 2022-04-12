@@ -19,10 +19,10 @@ This project realized a 4x8 toy CGRA (Coarsed Grained Reconfigurable Array) modi
 Halide is an programming language that targets high performance array processing algorithms. It decouples the computation and scheduling of the algorithm. We first write our applicaions in Halide and send it through AHA compiler toolchains to map it to our CGRA. For more information please visit https://halide-lang.org/
 
 ## AHA Compiler Tool Chains
---under-construction--
+![](img/AHA.png)
 
 ## CGRA Architecture
---under-construction--
+![](img/cgra_architecture.png)
 
 ## Layout
 ![](img/cgra.png)
